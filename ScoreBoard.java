@@ -22,7 +22,7 @@ public class ScoreBoard extends JPanel {
 		m = model;
 
 		current = new JLabel("Current score: " + 
-									   Integer.toString(m.getCurrentScore()));
+				     Integer.toString(m.getCurrentScore()));
 		current.setForeground(Color.WHITE);
 		add(current);
 
@@ -33,9 +33,9 @@ public class ScoreBoard extends JPanel {
 		l1 = new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				current.setText("Current score: " + 
-									   Integer.toString(m.getCurrentScore()));
+						Integer.toString(m.getCurrentScore()));
 				best.setText("High score: " + 
-								           Integer.toString(m.getMaxScore()));
+					   	Integer.toString(m.getMaxScore()));
 			}
 		};
 
