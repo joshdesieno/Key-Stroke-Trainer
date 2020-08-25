@@ -1,7 +1,7 @@
 Josh DeSieno
 August 25, 2020
 
-This program implements a key-stroke training game. In which, the user 
+This program implements a keystroke training game. In which, the user 
 continuously attempts to remove characters from the screen as they fly by. 
 Each key-stroke of a character corresponding to one on the screen, 
 will remove that character. If any character succesfully moves all the way 
