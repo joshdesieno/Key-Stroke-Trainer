@@ -34,7 +34,7 @@ public class Canvas extends JPanel implements MouseListener {
 		if (!started) {
 			g.setColor(Color.RED);
 			g.drawString("Click anywhere to begin typing", 
-													width/2 - 400, height/2);
+				     width/2 - 400, height/2);
 		}
 		
 		g.setColor(Color.WHITE);
@@ -44,7 +44,7 @@ public class Canvas extends JPanel implements MouseListener {
 		if (gameOver) {
 			g.setColor(Color.RED);
 			g.drawString("Game Over! Click anywhere to restart.", 
-													width/2 - 450, height/2);
+					width/2 - 450, height/2);
 		}
 	}
 
